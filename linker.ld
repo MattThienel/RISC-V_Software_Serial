@@ -15,13 +15,5 @@ SECTIONS
 		*(.text)
 	} > flash
 
-	.rodata :
-	{
-		*(.rodata)
-	} > flash
-
-	.data :
-	{
-		*(.tile_memory)
-	} > ram
 }
+
